@@ -9,7 +9,7 @@
 	</head>
 	<body ng-app="app">
 		<div ng-controller="UserCtrl">
-			<form name="f"ng-submit="register(user)">
+			<form name="f" ng-submit="register(user)">
 				<fieldset>
 					<legend>基本信息</legend>
 					<img ng-src="{{user.img}}" ng-hide="user.isShowImg" ng-class="{'tx':user.showImg}"><br/>
